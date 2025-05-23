@@ -267,7 +267,7 @@ window.onload = function () {
 		}
 
 		if (map[newY][newX] === 'tileSW') {
-			hero.attack += 35;
+			hero.attack += 20;
 			map[newY][newX] = 'tile';
 		}
 
@@ -316,7 +316,7 @@ window.onload = function () {
 					enemies.splice(index, 1);
 					map[enemy.y][enemy.x] = 'tile';
 				}
-				break;
+				// break;
 			}
 		}
 	}
